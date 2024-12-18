@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="50dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="40dp"
+    android:layout_marginStart="7dp">
+    <ImageView
+        android:id="@+id/ivStoryImage"
+        android:src="@drawable/image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+
+        />
+</androidx.cardview.widget.CardView>
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@+id/tvUserName"
+            android:layout_marginStart="7dp"
+            android:text="User Name"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
